@@ -4,6 +4,9 @@ import "./About.css";
 const About = props => {
   return (
     <div className="about-content">
+      <div className="img-box">
+        <img alt="" className="img-box__avatar"></img>
+      </div>
       <div className="about-content__text">
         <p>
           Hi, I'm Paulo a Sydney based Junior Web Developer with a background in

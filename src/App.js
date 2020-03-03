@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Card from "./components/Card";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 import "./App.css";
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
         <Router>
           <Home path="/" />
           <About path="/about" />
-          {/* <Projects path="/Projects"/> */}
+          <Projects path="/projects" />
         </Router>
       </Card>
       <Footer />
