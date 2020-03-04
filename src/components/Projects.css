@@ -1,8 +1,10 @@
 .projects-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  padding: 1rem;
+  overflow-x: scroll;
+  width: 60vw;
+  min-width: 18rem;
+  min-height: 27rem;
 }

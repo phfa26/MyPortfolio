@@ -2,49 +2,33 @@ import React from "react";
 
 import "./Project.css";
 
-const Project = props => {
+const ProjectCard = props => {
   return (
-    <div className="project-card">
-      <div className="project-card__content">
-        <img
-          className="project-card__image"
-          src={props.project.img}
-          alt={props.project.name + " screenshot"}
-        ></img>
-        <div className="project-card__text">
-          <p className="project-card__title">{props.project.name}</p>
-          <p>{props.project.description}</p>
-          <p> Tech Stack: {props.project.techStack}</p>
-          <a
-            href={props.project.github}
-            target="_blank"
-            style={{ display: "block" }}
-            rel="noopener noreferrer"
-          >
-            Check the code
+    <div className="project">
+      <div className="project-container">
+        <div className="project-image__container">
+          <img alt={props.project.name} src={props.project.img} />
+        </div>
+
+        <div className="project-container__text">
+          <p className="project-container__text-title">TITULO</p>
+          <p className="project-container__text-description">
+            DESCRIPTION DESCRIPTION DESCRIPTION DESCRIPTION DESCRIPTION
+            DESCRIPTION DESCRIPTION DESCRIPTION
+          </p>
+        </div>
+        <div className="project-links">
+          <a href="#" className="project-links__link">
+            ANCHOR 1
           </a>
-          <a
-            href={props.project.deployed}
-            target="_blank"
-            style={{ display: "block" }}
-            rel="noopener noreferrer"
-          >
-            Live App
+          <a href="#" className="project-links__link">
+            {" "}
+            ANCHOR 2
           </a>
         </div>
       </div>
-      <hr
-        style={{
-          display: "flex",
-          color: "white",
-          zIndex: "1000",
-          width: "65%",
-          margin: "2rem",
-          border: "0.7px solid lightgrey"
-        }}
-      ></hr>
     </div>
   );
 };
 
-export default Project;
+export default ProjectCard;
