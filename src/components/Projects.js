@@ -2,16 +2,15 @@ import React from "react";
 
 import "./Projects.css";
 import ProjectCard from "./ProjectCard";
-import Project from "./Project";
 
 const Projects = () => {
   const projects = [
     {
       id: 0,
       name: "Skulls & Bones",
-      img: require("../images/ticTacToe.png"),
+      img: require("../images/TicTacToe.png"),
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.",
+        "Pick your token and have fun playing this Tic-Tac-Toe game.",
       github: "https://github.com/phfa26/ticTacToeGame",
       deployed: "https://phfa26.github.io/ticTacToeGame/",
       techStack: "JavaScript, JQuery, HTML/CSS, Bootstrap. Deployed on GitPages"
@@ -21,7 +20,7 @@ const Projects = () => {
       name: "Expenses Tracker App",
       img: require("../images/ExpensesTrackerApp.png"),
       description:
-        "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "Keep track of your small daily expenses. Group them in custom categories and never forget where you have spent those pennies again.",
       github: "https://github.com/phfa26/ExpensesTrackerApp",
       deployed: "https://my-expenses-tracker-project.herokuapp.com/",
       techStack:
@@ -32,7 +31,7 @@ const Projects = () => {
       name: "Givng",
       img: require("../images/GivngApp.png"),
       description:
-        "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.",
+        "It is giving time and you don't know how to organise your list and split budget? Let Givng Giv you a hand. A gift-list organiser for every occasion.",
       github: "https://github.com/phfa26/project-2",
       deployed: "https://givng.herokuapp.com/",
       techStack:
@@ -43,7 +42,7 @@ const Projects = () => {
       name: "Portfolio",
       img: require("../images/Portfolio.png"),
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "This portfolio is a personal project. But still a project, nevertheless. Suggestion are welcome, as it seems never to be ready! :)",
       github: "https://github.com/phfa26/MyPortfolio",
       deployed: "https://www.pauloamaral.com.au",
       techStack: "React, JavaScript, HTML/CSS"
@@ -53,7 +52,7 @@ const Projects = () => {
       name: "MockedIn",
       img: require("../images/MockedIn.png"),
       description:
-        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.",
+        "Want to see how it's going to look on LinkedIn before posting it on there? Need it to be reviewed by a recruiter/advisor before? Don't panic. MockedIn is the tool for you!",
       github: "https://github.com/phfa26/MockedIn-project-3",
       deployed: "https://mockedin.heroku.com/",
       techStack:
@@ -63,6 +62,8 @@ const Projects = () => {
 
   return (
     <div className="projects-container">
+      <h1>Projects</h1>
+
       {projects.map(project => (
         <ProjectCard key={project.id} project={project} />
       ))}

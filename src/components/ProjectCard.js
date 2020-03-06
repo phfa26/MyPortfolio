@@ -4,14 +4,31 @@ import "./ProjectCard.css";
 
 const ProjectCard = props => {
   return (
-    <div className="card">
-      <h3 className="card-title">{props.project.name}</h3>
-      <div className="card-bar">
-        <div className="card-emptybar"></div>
-        <div className="card-filledbar"></div>
-      </div>
-      <div className="card-image">
-        <img src={props.project.img} alt={props.project.name} />
+    <div className="wrapper">
+      <div className="cols">
+        <div className="col" ontouchstart="this.classList.toggle('hover');">
+          <div className="container">
+            <div
+              className="front"
+              style={{
+                backgroundImage: `url(${props.project.img})`
+              }}
+            >
+              <div className="inner">
+                <p>{props.project.name}</p>
+                <span>Lorem ipsum</span>
+              </div>
+            </div>
+            <div className="back">
+              <div className="inner">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Alias cum repellat velit quae suscipit c.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

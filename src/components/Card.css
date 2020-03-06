@@ -1,6 +1,6 @@
 .main-card {
   /* display: flex; */
-  width: 60vw;
+  width: 70vw;
   min-width: 18rem;
   min-height: 27rem;
   border-radius: 2px;
@@ -11,4 +11,11 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+@media (max-width: 960px) {
+  .main-card {
+    /* display: flex; */
+    width: 85vw;
+  }
 }

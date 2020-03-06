@@ -6,7 +6,11 @@ const Home = props => {
     <div className="home-content">
       <div className="home-content__text">
         <h1>Paulo Amaral</h1>
-        <p>Junior Web Developer</p>
+        <p>
+          Junior Front-end
+          <br />
+          Web Developer
+        </p>
       </div>
     </div>
   );
