@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from "react-icons/fa";
 
 import "./Footer.css";
 
 const Footer = () => {
+  const [showEmail, setShowEmail] = useState("footer-items__email-hide");
+  const [toggle, setToggle] = useState(false);
+
+  const toggleEmail = () => {
+    if (
+      showEmail === "footer-items__email-hide" ||
+      showEmail === "footer-items__email-out"
+    ) {
+      setShowEmail("footer-items__email");
+      setToggle(true);
+    } else {
+      setShowEmail("footer-items__email-out");
+      setToggle(false);
+    }
+  };
+
   return (
     <div className="footer">
       <div className="footer-items">
@@ -21,8 +37,12 @@ const Footer = () => {
         >
           <FaLinkedin className="footer-items__icon" />
         </a>
-        <FaEnvelopeSquare className="footer-items__icon footer-items__icon-mail" /><p className='footer-items__icon-mail__'></p>
+        <FaEnvelopeSquare
+          className="footer-items__icon"
+          onClick={toggleEmail}
+        />
       </div>
+      <span className={showEmail}>paulo@amaral.com.au</span>
     </div>
   );
 };

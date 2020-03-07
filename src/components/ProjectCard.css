@@ -5,10 +5,12 @@
   color: #444;
   text-align: center;
   margin: 2rem 0;
+  display: flex;
 }
 
 .wrapper {
   width: 90%;
+  min-width: 17vw;
   margin: 0 auto;
   max-width: 80rem;
   animation: moveInRight 2s ease-out;
@@ -23,7 +25,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin: 0 1rem;
+  margin: auto;
 }
 
 .col {
@@ -45,7 +47,7 @@
 .front,
 .back {
   background: white;
-  background-size: calc(90% - 2rem);
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 20px;
@@ -65,14 +67,14 @@
   font-size: 1.5rem;
 }
 
-.front {
-  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px,
-    rgb(0, 0, 0) -0.416147px 0.909297px 0px,
-    rgb(0, 0, 0) -0.989992px 0.14112px 0px,
-    rgb(0, 0, 0) -0.653644px -0.756802px 0px,
-    rgb(0, 0, 0) 0.283662px -0.958924px 0px,
-    rgb(0, 0, 0) 0.96017px -0.279415px 0px;
-}
+/* .front p {
+  color: black;
+  background: rgb(50, 50, 50);
+  padding: 0rem;
+  width: fit-content;
+  text-align: center;
+  border-radius: 10px;
+} */
 
 .back {
   background: rgb(31, 31, 31);
@@ -85,6 +87,7 @@
     rgba(255, 255, 255, 1) 100%
   );
   color: #000;
+  /* overflow-y: scroll; */
 }
 
 .front:after {
@@ -133,6 +136,10 @@
   -webkit-perspective: inherit;
   perspective: inherit;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container .back {
@@ -188,21 +195,89 @@
   font-weight: 300;
 }
 
-/* @media (max-width: 64rem) {
+.back .inner {
+  height: 100%;
+  padding: 2rem;
+}
+
+.back .inner .inner-text__description {
+  font-size: 1.3rem;
+}
+
+.back .inner .inner-text__tech {
+  font-size: 1rem;
+}
+
+.back .inner .back-buttons {
+  display: flex;
+  margin: 0 0.5rem;
+}
+
+.back .inner .back-buttons .back-buttons__button {
+  margin: 0 0.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+}
+.back .inner .back-buttons .back-buttons__button input {
+  padding: 0.25rem 0.5rem;
+  border-radius: 10px;
+}
+
+@media (max-width: 1300px) {
+  .wrapper {
+    max-width: 100%;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .cols {
+    max-width: 100%;
+    margin: 0;
+  }
   .col {
-    width: calc(33.333333% - 2rem);
+    margin: 1rem 0;
   }
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 1000px) {
+  .back .inner .inner-text__description {
+    font-size: 1rem;
+  }
+
+  .back .inner .inner-text__tech {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .back .inner .back-buttons {
+    display: flex;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 800px) {
+  .back .inner {
+    padding: 1rem;
+  }
+  .back .inner .inner-text__description {
+    margin-bottom: 0;
+  }
+  .wrapper {
+    max-width: 90%;
+  }
+  .container {
+    max-width: 90%;
+  }
+
   .col {
-    width: calc(50% - 2rem);
+    margin: 1rem 0;
   }
 }
 
-@media (max-width: 32rem) {
-  .col {
-    width: 100%;
-    margin: 0 0 2rem 0;
+@media (max-width: 400px) {
+  .container {
+    max-width: 75%;
   }
-} */
+}
+
+/* card based on https://codepen.io/niteshgourofficial/pen/LrXyom by Nitesh Gour*/

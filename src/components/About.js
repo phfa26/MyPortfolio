@@ -8,9 +8,10 @@ const About = props => {
         <img alt="" className="img-box__avatar"></img>
       </div>
       <div className="about-content__text">
+        <h1>About</h1>
         <p>
-          Hi, I'm Paulo a Sydney based Junior Web Developer with a background in
-          finance and logistics.
+          I'm a Sydney based Junior Web Developer with a background in finance
+          and logistics.
         </p>
         <p>
           Problem-solving, creativity, and logical thinking are my natural
@@ -26,6 +27,11 @@ const About = props => {
           me. I'd love to hear from you.
         </p>
         <p>Thank you for visiting my portfolio page.</p>
+        <h3>Skills</h3>
+        <p className="about-content__text-skills">
+          HTML/CSS | JAVASCRIPT | REACT | EXPRESS | NODE | MONGO DB|
+          RUBY-ON-RAILS | SQL/POSTGRES | JQUERY | BOOTSTRAP | HEROKU
+        </p>
       </div>
     </div>
   );
