@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.3b1a68dd.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.5d3246c3.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.5d3246c3.chunk.js.map",
-    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.e4667418.js",
-    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.e4667418.js.map",
-    "static/js/2.205a64d6.chunk.js": "/MyPortfolio/static/js/2.205a64d6.chunk.js",
-    "static/js/2.205a64d6.chunk.js.map": "/MyPortfolio/static/js/2.205a64d6.chunk.js.map",
-    "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.6402b81c433780a623f54008cc9c5279.js": "/MyPortfolio/precache-manifest.6402b81c433780a623f54008cc9c5279.js",
-    "service-worker.js": "/MyPortfolio/service-worker.js",
-    "static/css/main.3b1a68dd.chunk.css.map": "/MyPortfolio/static/css/main.3b1a68dd.chunk.css.map",
-    "static/js/2.205a64d6.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.205a64d6.chunk.js.LICENSE.txt",
-    "static/media/ExpensesTrackerApp.png": "/MyPortfolio/static/media/ExpensesTrackerApp.01b40d88.png",
-    "static/media/GivngApp.png": "/MyPortfolio/static/media/GivngApp.2b9316d6.png",
-    "static/media/MockedIn.png": "/MyPortfolio/static/media/MockedIn.65a233a3.png",
-    "static/media/Portfolio.png": "/MyPortfolio/static/media/Portfolio.44df9778.png",
-    "static/media/TicTacToe.png": "/MyPortfolio/static/media/TicTacToe.52dd46b3.png",
-    "static/media/cv.svg": "/MyPortfolio/static/media/cv.80070f78.svg",
-    "static/media/About.css": "/MyPortfolio/static/media/pic.c1b8608d.jpeg",
-    "static/media/resume.pdf": "/MyPortfolio/static/media/resume.2e9f98fa.pdf"
+    "main.css": "/www.pauloamaral.com.au/static/css/main.4f751c26.chunk.css",
+    "main.js": "/www.pauloamaral.com.au/static/js/main.22c560e5.chunk.js",
+    "main.js.map": "/www.pauloamaral.com.au/static/js/main.22c560e5.chunk.js.map",
+    "runtime-main.js": "/www.pauloamaral.com.au/static/js/runtime-main.d0ec4462.js",
+    "runtime-main.js.map": "/www.pauloamaral.com.au/static/js/runtime-main.d0ec4462.js.map",
+    "static/js/2.205a64d6.chunk.js": "/www.pauloamaral.com.au/static/js/2.205a64d6.chunk.js",
+    "static/js/2.205a64d6.chunk.js.map": "/www.pauloamaral.com.au/static/js/2.205a64d6.chunk.js.map",
+    "index.html": "/www.pauloamaral.com.au/index.html",
+    "precache-manifest.4698728bb26b3051414e66dd0c56a031.js": "/www.pauloamaral.com.au/precache-manifest.4698728bb26b3051414e66dd0c56a031.js",
+    "service-worker.js": "/www.pauloamaral.com.au/service-worker.js",
+    "static/css/main.4f751c26.chunk.css.map": "/www.pauloamaral.com.au/static/css/main.4f751c26.chunk.css.map",
+    "static/js/2.205a64d6.chunk.js.LICENSE.txt": "/www.pauloamaral.com.au/static/js/2.205a64d6.chunk.js.LICENSE.txt",
+    "static/media/ExpensesTrackerApp.png": "/www.pauloamaral.com.au/static/media/ExpensesTrackerApp.01b40d88.png",
+    "static/media/GivngApp.png": "/www.pauloamaral.com.au/static/media/GivngApp.2b9316d6.png",
+    "static/media/MockedIn.png": "/www.pauloamaral.com.au/static/media/MockedIn.65a233a3.png",
+    "static/media/Portfolio.png": "/www.pauloamaral.com.au/static/media/Portfolio.44df9778.png",
+    "static/media/TicTacToe.png": "/www.pauloamaral.com.au/static/media/TicTacToe.52dd46b3.png",
+    "static/media/cv.svg": "/www.pauloamaral.com.au/static/media/cv.80070f78.svg",
+    "static/media/About.css": "/www.pauloamaral.com.au/static/media/pic.c1b8608d.jpeg",
+    "static/media/resume.pdf": "/www.pauloamaral.com.au/static/media/resume.2e9f98fa.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4667418.js",
+    "static/js/runtime-main.d0ec4462.js",
     "static/js/2.205a64d6.chunk.js",
-    "static/css/main.3b1a68dd.chunk.css",
-    "static/js/main.5d3246c3.chunk.js"
+    "static/css/main.4f751c26.chunk.css",
+    "static/js/main.22c560e5.chunk.js"
   ]
 }
