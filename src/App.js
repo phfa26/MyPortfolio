@@ -12,15 +12,15 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App">
-      <Router>
-        <Nav />
-        <Card>
+      <Nav />
+      <Card>
+        <Router>
           <Home path="/MyPortfolio" />
           <About path="/about" />
           <Projects path="/projects" />
-        </Card>
-        <Footer />
-      </Router>
+        </Router>
+      </Card>
+      <Footer />
     </div>
   );
 };
