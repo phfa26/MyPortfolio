@@ -14,7 +14,7 @@ const App = () => {
     <div className="App">
       <Nav />
       <Card>
-        <Router>
+        <Router basename="/MyPortfolio">
           <Home path="/" />
           <About path="/about" />
           <Projects path="/projects" />
