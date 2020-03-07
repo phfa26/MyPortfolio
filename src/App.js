@@ -16,8 +16,8 @@ const App = () => {
       <Card>
         <Router>
           <Home path="/MyPortfolio" />
-          <About path="/about" />
-          <Projects path="/projects" />
+          <About path="/MyPortfolio/about" />
+          <Projects path="/MyPortfolio/projects" />
         </Router>
       </Card>
       <Footer />

@@ -5,7 +5,6 @@ import "./Footer.css";
 
 const Footer = () => {
   const [showEmail, setShowEmail] = useState("footer-items__email-hide");
-  const [toggle, setToggle] = useState(false);
 
   const toggleEmail = () => {
     if (
@@ -13,10 +12,8 @@ const Footer = () => {
       showEmail === "footer-items__email-out"
     ) {
       setShowEmail("footer-items__email");
-      setToggle(true);
     } else {
       setShowEmail("footer-items__email-out");
-      setToggle(false);
     }
   };
 

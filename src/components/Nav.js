@@ -10,11 +10,11 @@ const Nav = props => {
           <span>Home</span>
         </Link>
         <span className="nav-links__link"> - </span>
-        <Link className="nav-links__link" to="/about">
+        <Link className="nav-links__link" to="/MyPortfolio/about">
           <span>About</span>
         </Link>
         <span className="nav-links__link"> - </span>
-        <Link className="nav-links__link" to="/projects">
+        <Link className="nav-links__link" to="/MyPortfolio/projects">
           <span>Projects</span>
         </Link>
       </div>
