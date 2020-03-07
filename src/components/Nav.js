@@ -6,7 +6,7 @@ const Nav = props => {
   return (
     <div className="nav-links">
       <div className="nav-links__group">
-        <Link className="nav-links__link" to="/">
+        <Link className="nav-links__link" to="/MyPortfolio">
           <span>Home</span>
         </Link>
         <span className="nav-links__link"> - </span>
