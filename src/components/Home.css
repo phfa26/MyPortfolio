@@ -14,12 +14,14 @@
 
 .home-content h1 {
   font-size: 6.25rem;
-  margin-bottom: 0;
+  margin: 0;
   background: -webkit-linear-gradient(315deg, #a40606 0%, #d98324 74%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.home-content__text-surname {
+  margin-left: 40%;
+}
 .home-content p {
   font-size: 2rem;
   font-weight: 600;

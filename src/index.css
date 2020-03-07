@@ -1,7 +1,10 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Alfa+Slab+One|Archivo+Black|Bangers|Kaushan+Script|Noto+Sans+SC|Passion+One|Russo+One|Squada+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap");
 
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 

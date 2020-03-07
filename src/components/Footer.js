@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from "react-icons/fa";
 
+import Resume from "../documents/resume.pdf";
+import cvImage from "../images/cv.svg";
 import "./Footer.css";
 
 const Footer = () => {
@@ -33,6 +35,9 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <FaLinkedin className="footer-items__icon" />
+        </a>
+        <a href={Resume} target="_blank" rel="noopener noreferrer">
+          <img className="testtest" src={cvImage} alt="CV download" />
         </a>
         <FaEnvelopeSquare
           className="footer-items__icon"
