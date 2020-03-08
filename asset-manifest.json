@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/pauloamaral.com.au/static/css/main.6a029b58.chunk.css",
-    "main.js": "/pauloamaral.com.au/static/js/main.49914407.chunk.js",
-    "main.js.map": "/pauloamaral.com.au/static/js/main.49914407.chunk.js.map",
-    "runtime-main.js": "/pauloamaral.com.au/static/js/runtime-main.7f780297.js",
-    "runtime-main.js.map": "/pauloamaral.com.au/static/js/runtime-main.7f780297.js.map",
-    "static/js/2.205a64d6.chunk.js": "/pauloamaral.com.au/static/js/2.205a64d6.chunk.js",
-    "static/js/2.205a64d6.chunk.js.map": "/pauloamaral.com.au/static/js/2.205a64d6.chunk.js.map",
-    "index.html": "/pauloamaral.com.au/index.html",
-    "precache-manifest.99ae91edf4ca25ad74f645b865cc3dfb.js": "/pauloamaral.com.au/precache-manifest.99ae91edf4ca25ad74f645b865cc3dfb.js",
-    "service-worker.js": "/pauloamaral.com.au/service-worker.js",
-    "static/css/main.6a029b58.chunk.css.map": "/pauloamaral.com.au/static/css/main.6a029b58.chunk.css.map",
-    "static/js/2.205a64d6.chunk.js.LICENSE.txt": "/pauloamaral.com.au/static/js/2.205a64d6.chunk.js.LICENSE.txt",
-    "static/media/ExpensesTrackerApp.png": "/pauloamaral.com.au/static/media/ExpensesTrackerApp.01b40d88.png",
-    "static/media/GivngApp.png": "/pauloamaral.com.au/static/media/GivngApp.2b9316d6.png",
-    "static/media/MockedIn.png": "/pauloamaral.com.au/static/media/MockedIn.65a233a3.png",
-    "static/media/Portfolio.png": "/pauloamaral.com.au/static/media/Portfolio.44df9778.png",
-    "static/media/Resume.pdf": "/pauloamaral.com.au/static/media/Resume.2e9f98fa.pdf",
-    "static/media/TicTacToe.png": "/pauloamaral.com.au/static/media/TicTacToe.52dd46b3.png",
-    "static/media/cv.svg": "/pauloamaral.com.au/static/media/cv.80070f78.svg",
-    "static/media/About.css": "/pauloamaral.com.au/static/media/pic.c1b8608d.jpeg"
+    "main.css": "/static/css/main.50ce98d4.chunk.css",
+    "main.js": "/static/js/main.918ba90f.chunk.js",
+    "main.js.map": "/static/js/main.918ba90f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b7897876.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b7897876.js.map",
+    "static/js/2.205a64d6.chunk.js": "/static/js/2.205a64d6.chunk.js",
+    "static/js/2.205a64d6.chunk.js.map": "/static/js/2.205a64d6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f98ccdf60d475f182918139085c66e48.js": "/precache-manifest.f98ccdf60d475f182918139085c66e48.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.50ce98d4.chunk.css.map": "/static/css/main.50ce98d4.chunk.css.map",
+    "static/js/2.205a64d6.chunk.js.LICENSE.txt": "/static/js/2.205a64d6.chunk.js.LICENSE.txt",
+    "static/media/ExpensesTrackerApp.png": "/static/media/ExpensesTrackerApp.01b40d88.png",
+    "static/media/GivngApp.png": "/static/media/GivngApp.2b9316d6.png",
+    "static/media/MockedIn.png": "/static/media/MockedIn.65a233a3.png",
+    "static/media/Portfolio.png": "/static/media/Portfolio.44df9778.png",
+    "static/media/Resume.pdf": "/static/media/Resume.2e9f98fa.pdf",
+    "static/media/TicTacToe.png": "/static/media/TicTacToe.52dd46b3.png",
+    "static/media/cv.svg": "/static/media/cv.80070f78.svg",
+    "static/media/About.css": "/static/media/pic.c1b8608d.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f780297.js",
+    "static/js/runtime-main.b7897876.js",
     "static/js/2.205a64d6.chunk.js",
-    "static/css/main.6a029b58.chunk.css",
-    "static/js/main.49914407.chunk.js"
+    "static/css/main.50ce98d4.chunk.css",
+    "static/js/main.918ba90f.chunk.js"
   ]
 }
