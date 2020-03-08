@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from "react-icons/fa";
 
-import Resume from "../documents/resume.pdf";
+import Resume from "../documents/Resume.pdf";
 import cvImage from "../images/cv.svg";
 import "./Footer.css";
 
