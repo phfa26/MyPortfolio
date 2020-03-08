@@ -6,15 +6,15 @@ const Nav = props => {
   return (
     <div className="nav-links">
       <div className="nav-links__group">
-        <Link className="nav-links__link" to="pauloamaral.com.au/">
+        <Link className="nav-links__link" to="/">
           <span>Home</span>
         </Link>
         <span className="nav-links__link"> - </span>
-        <Link className="nav-links__link" to="pauloamaral.com.au/about">
+        <Link className="nav-links__link" to="/about">
           <span>About</span>
         </Link>
         <span className="nav-links__link"> - </span>
-        <Link className="nav-links__link" to="pauloamaral.com.au/projects">
+        <Link className="nav-links__link" to="/projects">
           <span>Projects</span>
         </Link>
       </div>

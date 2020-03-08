@@ -15,9 +15,9 @@ const App = () => {
       <Nav />
       <Card>
         <Router>
-          <Home path="pauloamaral.com.au/" />
-          <About path="pauloamaral.com.au/about" />
-          <Projects path="pauloamaral.com.au/projects" />
+          <Home path="/" />
+          <About path="/about" />
+          <Projects path="/projects" />
         </Router>
       </Card>
       <Footer />
