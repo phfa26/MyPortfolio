@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.50ce98d4.chunk.css",
-    "main.js": "/static/js/main.9c645fb1.chunk.js",
-    "main.js.map": "/static/js/main.9c645fb1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b7897876.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b7897876.js.map",
-    "static/js/2.205a64d6.chunk.js": "/static/js/2.205a64d6.chunk.js",
-    "static/js/2.205a64d6.chunk.js.map": "/static/js/2.205a64d6.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c1067b199b18097384d97fe1b4668e13.js": "/precache-manifest.c1067b199b18097384d97fe1b4668e13.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.50ce98d4.chunk.css.map": "/static/css/main.50ce98d4.chunk.css.map",
-    "static/js/2.205a64d6.chunk.js.LICENSE.txt": "/static/js/2.205a64d6.chunk.js.LICENSE.txt",
-    "static/media/ExpensesTrackerApp.png": "/static/media/ExpensesTrackerApp.01b40d88.png",
-    "static/media/GivngApp.png": "/static/media/GivngApp.2b9316d6.png",
-    "static/media/MockedIn.png": "/static/media/MockedIn.65a233a3.png",
-    "static/media/Portfolio.png": "/static/media/Portfolio.44df9778.png",
-    "static/media/TicTacToe.png": "/static/media/TicTacToe.52dd46b3.png",
-    "static/media/cv.svg": "/static/media/cv.80070f78.svg",
-    "static/media/About.css": "/static/media/pic.c1b8608d.jpeg",
-    "static/media/resume.pdf": "/static/media/resume.2e9f98fa.pdf"
+    "main.css": "/MyPortfolio/static/css/main.3b1a68dd.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.5d3246c3.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.5d3246c3.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.e4667418.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.e4667418.js.map",
+    "static/js/2.205a64d6.chunk.js": "/MyPortfolio/static/js/2.205a64d6.chunk.js",
+    "static/js/2.205a64d6.chunk.js.map": "/MyPortfolio/static/js/2.205a64d6.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "precache-manifest.6402b81c433780a623f54008cc9c5279.js": "/MyPortfolio/precache-manifest.6402b81c433780a623f54008cc9c5279.js",
+    "service-worker.js": "/MyPortfolio/service-worker.js",
+    "static/css/main.3b1a68dd.chunk.css.map": "/MyPortfolio/static/css/main.3b1a68dd.chunk.css.map",
+    "static/js/2.205a64d6.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.205a64d6.chunk.js.LICENSE.txt",
+    "static/media/ExpensesTrackerApp.png": "/MyPortfolio/static/media/ExpensesTrackerApp.01b40d88.png",
+    "static/media/GivngApp.png": "/MyPortfolio/static/media/GivngApp.2b9316d6.png",
+    "static/media/MockedIn.png": "/MyPortfolio/static/media/MockedIn.65a233a3.png",
+    "static/media/Portfolio.png": "/MyPortfolio/static/media/Portfolio.44df9778.png",
+    "static/media/TicTacToe.png": "/MyPortfolio/static/media/TicTacToe.52dd46b3.png",
+    "static/media/cv.svg": "/MyPortfolio/static/media/cv.80070f78.svg",
+    "static/media/About.css": "/MyPortfolio/static/media/pic.c1b8608d.jpeg",
+    "static/media/resume.pdf": "/MyPortfolio/static/media/resume.2e9f98fa.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7897876.js",
+    "static/js/runtime-main.e4667418.js",
     "static/js/2.205a64d6.chunk.js",
-    "static/css/main.50ce98d4.chunk.css",
-    "static/js/main.9c645fb1.chunk.js"
+    "static/css/main.3b1a68dd.chunk.css",
+    "static/js/main.5d3246c3.chunk.js"
   ]
 }
