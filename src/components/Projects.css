@@ -16,10 +16,11 @@
   flex-direction: column;
 }
 .projects-container h1 {
-  font-size: 2.5rem;
-  /* font-family: "Montserrat"; */
-  font-weight: normal;
-  color: #444;
+  font-size: 3rem;
+  font-weight: bold;
+  color: gray;
   text-align: center;
-  margin: 2rem 0;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  animation: moveInRight 2s ease-out;
 }

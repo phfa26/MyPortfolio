@@ -1,52 +1,77 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
-.nav-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.nav {
+  top: 0;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  /* justify-items: flex-end; */
-  width: 70vw;
-  min-width: 18rem;
-  margin-bottom: 0.5rem;
+  height: 5em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background-color: rgb(36, 36, 36);
+  width: 100%;
+  z-index: 1;
+  padding: 0 25vw;
+  /* justify-self: flex-start;
+  align-self: flex-start; */
 }
 .nav-links__group {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  align-content: center;
+  justify-content: space-around;
   width: 100%;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 10px;
 }
 
 .nav-links__link {
-  text-decoration: none;
-  color: white;
-  margin: 0.25rem;
+  margin-top: 2em;
+  justify-content: center;
+  align-content: center;
+  transition: 0.5s;
 }
+
 .nav-links__link:hover {
-  text-decoration: none;
-  color: white;
+  background: -webkit-linear-gradient(315deg, #a40606 0%, #d43c00 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0s;
 }
 
-@media (max-width: 960px) {
-  .nav-links {
-    width: 85vw;
+@media (max-width: 60rem) {
+  .nav {
+    padding: 0 15vw;
   }
 }
 
 @media (max-width: 45rem) {
+  .nav {
+    padding: 0 10vw;
+  }
   .nav-links__group {
-    font-size: 1.5rem;
+    letter-spacing: 7px;
   }
 }
-@media (max-width: 45rem) {
+/* @media (max-width: 37rem) {
+
+} */
+@media (max-width: 37rem) {
   .nav-links__group {
-    font-size: 1.2rem;
+    letter-spacing: 5px;
   }
 }
+@media (max-width: 30rem) {
+  .nav-links__link-home {
+    margin-top: 1em;
+  }
+  .nav-links__link-about {
+    margin-top: 2em;
+  }
+  .nav-links__link-projects {
+    margin-top: 3em;
+  }
+}
+
+/* @media (max-width: 37rem) {
+  HAMBURGUER MENU FROM HERE
+  DONT FORGET FOOTER FROM HERE TOO
+  MAKE PADDING SMALLER IN THE FOOTER 37REM AND LOWER
+} */

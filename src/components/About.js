@@ -11,20 +11,19 @@ const About = props => {
         <h1>About</h1>
         <p>
           I'm a Sydney based Junior Web Developer with a background in finance
-          and logistics.
-        </p>
-        <p>
-          Problem-solving, creativity, and logical thinking are my natural
-          skills, and Tech is my passion. Software Engineering grounds is where
-          I can bring them together to build awesome things. I love working on
-          projects, by myself or in a team, learning new things is a
-          never-ending task to me.
+          and logistics. Problem-solving, creativity, and logical thinking are
+          my natural skills, and Tech is my passion. Software Engineering
+          grounds is where I can bring them together to build awesome things. I
+          love working on projects, by myself or in a team, learning new things
+          is a never-ending task to me.
         </p>
         <p>
           Please feel free to reach me out if you want to know even more about
           me. I'd love to hear from you.
         </p>
-        <p>Thank you for visiting my portfolio page.</p>
+        <p style={{ marginBottom: "50px" }}>
+          Thank you for visiting my portfolio page.
+        </p>
         <h3>Skills</h3>
         <p className="about-content__text-skills">
           HTML/CSS | JAVASCRIPT | REACT | EXPRESS | NODE | MONGO DB|

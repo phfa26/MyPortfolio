@@ -4,17 +4,18 @@ import { Link } from "@reach/router";
 import "./Nav.css";
 const Nav = props => {
   return (
-    <div className="nav-links">
+    <div className="nav">
       <div className="nav-links__group">
-        <Link className="nav-links__link" to="/">
+        <Link className="nav-links__link nav-links__link-home" to="/">
           <span>Home</span>
         </Link>
-        <span className="nav-links__link"> - </span>
-        <Link className="nav-links__link" to="/about">
+        <Link className="nav-links__link nav-links__link-about" to="/about">
           <span>About</span>
         </Link>
-        <span className="nav-links__link"> - </span>
-        <Link className="nav-links__link" to="/projects">
+        <Link
+          className="nav-links__link nav-links__link-projects"
+          to="/projects"
+        >
           <span>Projects</span>
         </Link>
       </div>

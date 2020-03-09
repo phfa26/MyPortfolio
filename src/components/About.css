@@ -16,10 +16,13 @@
   align-items: center;
   height: 100%;
   width: 100%;
+  letter-spacing: 2px;
+  line-height: 2rem;
 }
 
 .img-box {
   width: 200px;
+  max-width: 25%;
   height: 200px;
   margin: 1rem 0 0 1rem;
   -webkit-box-pack: center;
@@ -50,7 +53,7 @@
 }
 
 .about-content__text {
-  width: 65%;
+  width: 75%;
   height: 100%;
   margin: 1rem;
   display: -webkit-box;
@@ -68,14 +71,15 @@
   text-align: left;
   -webkit-animation: moveInRight 2s ease-out;
   animation: moveInRight 2s ease-out;
+  padding-left: 50px;
 }
 .about-content__text h1,
 .about-content__text h3 {
-  font-size: 2.5rem;
-  font-weight: normal;
-  color: #444;
+  font-size: 3rem;
+  font-weight: bold;
+  color: gray;
   text-align: center;
-  margin: 0.2rem 0;
+  margin-bottom: 1.5rem;
 }
 .about-content__text-skills {
   font-size: 0.75rem;

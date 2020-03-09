@@ -1,8 +1,7 @@
 .home-content {
   display: flex;
-  justify-content: flex-start;
-  text-align: left;
-  margin-left: 20%;
+  justify-content: center;
+  /* text-align: center; */
 }
 
 .home-content__text p {
@@ -26,6 +25,7 @@
   font-size: 2rem;
   font-weight: 600;
   margin-top: 0;
+  letter-spacing: 4px;
 }
 
 @keyframes moveInLeft {

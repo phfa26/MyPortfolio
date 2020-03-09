@@ -21,6 +21,8 @@ const Footer = () => {
 
   return (
     <div className="footer">
+      <span className={showEmail}>paulo@amaral.com.au</span>
+
       <div className="footer-items">
         <a
           href="https://github.com/phfa26"
@@ -37,14 +39,17 @@ const Footer = () => {
           <FaLinkedin className="footer-items__icon" />
         </a>
         <a href={Resume} target="_blank" rel="noopener noreferrer">
-          <img className="testtest" src={cvImage} alt="CV download" />
+          <img
+            className="footer-items__icon footer-items__icon-cv"
+            src={cvImage}
+            alt="CV download"
+          />
         </a>
         <FaEnvelopeSquare
           className="footer-items__icon"
           onClick={toggleEmail}
         />
       </div>
-      <span className={showEmail}>paulo@amaral.com.au</span>
     </div>
   );
 };

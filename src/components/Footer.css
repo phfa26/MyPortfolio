@@ -1,8 +1,8 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
 .footer {
-  margin-top: 1rem;
-  font-size: 2.5rem;
+  margin: 1rem 0;
+  font-size: 3rem;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,11 +22,12 @@
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
+  width: 100%;
   justify-content: center;
 }
 
 .footer-items__icon {
-  margin: 0 0.4rem;
+  margin: 2.4rem;
   cursor: pointer;
 }
 a,
@@ -41,23 +42,23 @@ a:hover {
   font-size: 1rem;
   -webkit-animation: fadeIn 2s forwards;
   animation: fadeIn 2s forwards;
-  margin: 0.5rem 0 1rem 0;
+  margin: 1rem 0 1.5rem 0;
 }
 .footer-items__email-out {
   font-size: 1rem;
   -webkit-animation: fadeOut 2s forwards;
   animation: fadeOut 2s forwards;
-  margin: 0.5rem 0 1rem 0;
+  margin: 1rem 0 1.5rem 0;
 }
 .footer-items__email-hide {
+  font-size: 1rem;
+  margin: 1rem 0 1.5rem 0;
   opacity: 0;
 }
-.testtest {
+.footer-items__icon-cv {
   background: white;
   border-radius: 3px;
   height: 0.9em;
-  margin: 0 0.4rem;
-  cursor: pointer;
 }
 @-webkit-keyframes fadeIn {
   0% {
@@ -89,5 +90,22 @@ a:hover {
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer-items__icon {
+    margin: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer-items__icon {
+    margin: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .footer-items__icon {
+    margin: 0.5rem;
   }
 }

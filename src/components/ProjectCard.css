@@ -39,7 +39,6 @@
 .col {
   width: 100%;
   margin: 1rem;
-  cursor: pointer;
   padding: 0;
 }
 
@@ -237,10 +236,12 @@
 
 .back .inner .inner-text__description {
   font-size: 1.3rem;
+  margin: 0;
 }
 
 .back .inner .inner-text__tech {
   font-size: 1rem;
+  margin: 0;
 }
 
 .back .inner .back-buttons {
@@ -258,6 +259,7 @@
 .back .inner .back-buttons .back-buttons__button input {
   padding: 0.25rem 0.5rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 @media (max-width: 1300px) {
@@ -276,14 +278,14 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1250px) {
   .back .inner .inner-text__description {
     font-size: 1rem;
   }
 
   .back .inner .inner-text__tech {
     font-size: 0.9rem;
-    margin-bottom: 0.2rem;
+    margin: 0.2rem 0;
   }
 
   .back .inner .back-buttons {
