@@ -39,6 +39,6 @@
 
 #### App Screenshots:
 
-![Home](/public/screenshots/portfolio1.png)
-![About](/public/screenshots/portfolio2.png)
-![Projects](/public/screenshots/portfolio3.png)
+![Home](/screenshots/portfolio1.png)
+![About](/screenshots/portfolio2.png)
+![Projects](/screenshots/portfolio3.png)
