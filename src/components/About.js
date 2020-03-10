@@ -12,10 +12,10 @@ const About = props => {
         <p>
           I'm a Sydney based Junior Web Developer with a background in finance
           and logistics. Problem-solving, creativity, and logical thinking are
-          my natural skills, and Tech is my passion. Software Engineering
-          grounds is where I can bring them together to build awesome things. I
-          love working on projects, by myself or in a team, learning new things
-          is a never-ending task to me.
+          my natural skills, and Tech is my passion. Software Engineering is
+          where I can bring them together to build awesome things. I love
+          working on projects, by myself or in a team, learning new things is a
+          never-ending task to me.
         </p>
         <p>
           Please feel free to reach me out if you want to know even more about
