@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+/src/components/business_card
 # production
 /build
 
