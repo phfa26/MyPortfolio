@@ -24,24 +24,16 @@
 
 ---
 
-#
-
 - Tech used to build this page:
   - React/JavaScript;
   - HTML (JSX) / CSS;
   - GitHub for version control and deployment.
-
-#
 
 ---
 
 # Thank you!
 
 ###### Paulo Amaral: paulo@amaral.com.au
-
-#
-
-#
 
 ---
 
