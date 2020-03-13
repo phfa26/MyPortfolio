@@ -163,6 +163,14 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    align-items: center;
+  }
+  .img-box {
+    display: flex;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
   }
 
   .about-content__text p {
@@ -171,6 +179,7 @@
   .about-content__text {
     margin: 1rem;
     width: 90%;
+    padding: 0;
   }
 
   @-webkit-keyframes moveInLeft {
